@@ -5394,6 +5394,10 @@ const ITEMS = [
     type: "Mega Stone",
   },
   {
+    name: "Glimmoranite",
+    type: "Mega Stone",
+  },
+  {
     name: "Golisopite",
     type: "Mega Stone",
   },
