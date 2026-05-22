@@ -156,6 +156,7 @@ The following selectors are used to style Team Icons:
 
 
 ## Credits and Acknowledgements
+* Original [TourKOAL](https://www.skeletom.net/pkmn/tournament-overlay/) repository and website by [Tom "Skeletom" Farro](https://www.skeletom.net/).
 * Pokémon renders and item icons downloaded from [Serebii.net](https://www.serebii.net). 
     * These images are artwork from Pokémon games. These images are believed to be [fair use](https://en.wikipedia.org/wiki/Fair_use) on the grounds that they are not being used to claim ownership or official affiliation with the source material, nor are they being used to gain profit. Furthermore, they do not constitute a "substantial portion" of the copyrighted work.
 * OBS WebSocket JavaScript Client Library from [obs-websocket](https://github.com/obsproject/obs-websocket).
