@@ -968,7 +968,7 @@ const SPECIES = [
     name: "Quilava",
   },
   {
-    name: "Typholsion",
+    name: "Typhlosion",
     formes: [
       {
         name: "Typhlosion-Hisui",
@@ -976,7 +976,7 @@ const SPECIES = [
     ],
   },
   {
-    name: "Tododile",
+    name: "Totodile",
   },
   {
     name: "Croconaw",
@@ -1050,7 +1050,7 @@ const SPECIES = [
     name: "Mareep",
   },
   {
-    name: "Flaafyy",
+    name: "Flaaffy",
   },
   {
     name: "Ampharos",
@@ -1131,7 +1131,7 @@ const SPECIES = [
     name: "Unown",
   },
   {
-    name: "Wobuffet",
+    name: "Wobbuffet",
   },
   {
     name: "Girafarig",
@@ -1445,7 +1445,7 @@ const SPECIES = [
     name: "Surskit",
   },
   {
-    name: "Masequerain",
+    name: "Masquerain",
   },
   {
     name: "Shroomish",
@@ -2079,7 +2079,7 @@ const SPECIES = [
     name: "Bronzong",
   },
   {
-    name: "Bosnly",
+    name: "Bonsly",
   },
   {
     name: "Mime Jr.",
@@ -2561,16 +2561,16 @@ const SPECIES = [
     ],
   },
   {
-    name: "Darminitan",
+    name: "Darmanitan",
     formes: [
       {
-        name: "Darminitan-Zen",
+        name: "Darmanitan-Zen",
       },
       {
-        name: "Darminitan-Galar",
+        name: "Darmanitan-Galar",
       },
       {
-        name: "Darminitan-Galar-Zen",
+        name: "Darmanitan-Galar-Zen",
       },
     ],
   },
@@ -3077,11 +3077,11 @@ const SPECIES = [
     formes: [
       {
         name: "Floette-Eternal",
-        index: 1,
+        index: 5,
       },
       {
         name: "Floette-Mega",
-        index: 2,
+        index: 6,
       },
     ],
   },
@@ -3620,8 +3620,12 @@ const SPECIES = [
     natdex: 801,
     formes: [
       {
-        name: "Magearna-Mega",
+        name: "Magearna-Original",
         index: 1,
+      },
+      {
+        name: "Magearna-Mega",
+        index: 2,
       },
     ],
   },
@@ -3868,7 +3872,7 @@ const SPECIES = [
     ],
   },
   {
-    name: "Pinchurchin",
+    name: "Pincurchin",
   },
   {
     name: "Snom",
@@ -3883,7 +3887,8 @@ const SPECIES = [
     name: "Eiscue",
     formes: [
       {
-        names: "Eiscue-Noice",
+        name: "Eiscue-Noice",
+        index: 1,
       },
     ],
   },
@@ -3914,7 +3919,7 @@ const SPECIES = [
     name: "Dracovish",
   },
   {
-    name: "Arcotvish",
+    name: "Arctovish",
   },
   {
     name: "Duraludon",
@@ -4058,15 +4063,16 @@ const SPECIES = [
     name: "Lechonk",
   },
   {
-    name: "Oinkologne-M",
+    name: "Oinkologne",
     formes: [
       {
-        names: "Oinkologne-F",
+        name: "Oinkologne-F",
+        index: 1,
       },
     ],
   },
   {
-    name: "Taroundtula",
+    name: "Tarountula",
   },
   {
     name: "Spidops",
@@ -4316,7 +4322,7 @@ const SPECIES = [
     name: "Dudunsparce",
     formes: [
       {
-        name: "Dudunsparce-Three-Segment)",
+        name: "Dudunsparce-Three-Segment",
       },
     ],
   },
@@ -4402,7 +4408,7 @@ const SPECIES = [
     name: "Roaring Moon",
   },
   {
-    name: "Iron Valliant",
+    name: "Iron Valiant",
   },
   {
     name: "Koraidon",
@@ -4921,6 +4927,9 @@ const ITEMS = [
   },
   {
     name: "Spooky Plate",
+  },
+  {
+    name: "Stick",
   },
   {
     name: "Sticky Barb",
