@@ -5322,7 +5322,7 @@ const ITEMS = [
     type: "Mega Stone",
   },
   {
-    name: "Darkrainite",
+    name: "Darkranite",
     type: "Mega Stone",
   },
   {
