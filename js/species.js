@@ -4778,6 +4778,88 @@ const ITEMS = [
         type: 'Berry'
     },
     // Gems
+    {
+        name: 'Bug Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Dark Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Dragon Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Electric Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Fairy Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Fighting Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Fire Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Flying Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Ghost Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Grass Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Ground Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Ice Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Normal Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Poison Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Psychic Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Rock Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Steel Gem',
+        type: 'Gems'
+    },
+    {
+        name: 'Water Gem',
+        type: 'Gems'
+    },
+    //Mega Stones
+    {
+        name: 'Yache Berry',
+        type: 'Mega Stone'
+    },
+    //Z-Crystals
+    {
+        name: 'Yache Berry',
+        type: 'Z-Crystal'
+    },
 ]
 
 /**
