@@ -175,9 +175,17 @@ const SPECIES = [
         natdex: 26,
         formes: [
             {
-                name: 'Alolan Raichu',
+                name: 'Raichu-Alola',
                 index: 1
-            }
+            },
+            {
+                name: 'Raichu-Mega-X',
+                index: 1
+            },
+            {
+                name: 'Raichu-Mega-Y',
+                index: 1
+            },
         ]
     },
     {
@@ -231,6 +239,12 @@ const SPECIES = [
     {
         name: 'Clefable',
         natdex: 36,
+        formes: [
+            {
+                name: 'Mega-Clefable',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Vulpix',
@@ -429,6 +443,12 @@ const SPECIES = [
     {
         name: 'Victreebel',
         natdex: 71,
+        formes: [
+            {
+                name: 'Mega-Victreebel',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Tentacool',
@@ -725,6 +745,12 @@ const SPECIES = [
     {
         name: 'Starmie',
         natdex: 121,
+        formes: [
+            {
+                name: 'Mega-Starmie',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Mr. Mime',
@@ -892,6 +918,12 @@ const SPECIES = [
     {
         name: 'Dragonite',
         natdex: 149,
+        formes: [
+            {
+                name: 'Mega-Dragonite',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Mewtwo',
@@ -920,7 +952,15 @@ const SPECIES = [
     },
     {
         name: 'Meganium',
+        natdex: 154,
+        formes: [
+            {
+                name: 'Mega-Meganium',
+                index: 1
+            }
+        ]
     },
+    
     {
         name: 'Cyndaquil',
     },
@@ -943,7 +983,15 @@ const SPECIES = [
     },
     {
         name: 'Feraligatr',
+        natdex: 160,
+        formes: [
+            {
+                name: 'Mega-Feraligatr',
+                index: 1
+            }
+        ]
     },
+            
     {
         name: 'Sentret',
     },
@@ -1184,6 +1232,13 @@ const SPECIES = [
     },
     {
         name: 'Skarmory',
+        natdex: 227,
+        formes: [
+            {
+                name: 'Mega-Skarmory',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Houndour'
@@ -1668,13 +1723,25 @@ const SPECIES = [
         name: 'Tropius'
     },
     {
-        name: 'Chimecho'
+        name: 'Chimecho',
+        natdex: 358,
+        formes: [
+            {
+                name: 'Chimeco-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Absol',
         formes: [
             {
-                name: 'Mega-Absol'
+                name: 'Mega-Absol',
+                index: 1
+            },
+            {
+                name: 'Absol-Mega-Z',
+                index: 2
             }
         ]
     },
@@ -1845,7 +1912,14 @@ const SPECIES = [
         name: 'Staravia'
     },
     {
-        name: 'Staraptor'
+        name: 'Staraptor',
+        natdex: 398,
+        formes: [
+            {
+                name: 'Staraptor-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Bidoof'
@@ -2025,7 +2099,12 @@ const SPECIES = [
         name: 'Garchomp',
         formes: [
             {
-                name: 'Mega-Garchomp'
+                name: 'Garchomp-Mega',
+                index: 1,
+            }
+            {
+                name: 'Garchomp-Mega-Z',
+                index: 2
             }
         ]
     },
@@ -2039,7 +2118,12 @@ const SPECIES = [
         name: 'Lucario',
         formes: [
             {
-                name: 'Mega-Lucario'
+                name: 'Mega-Lucario',
+                index: 1
+            },
+            {
+                name: 'Lucario-Mega-Z',
+                index: 2
             }
         ]
     },
@@ -2136,7 +2220,13 @@ const SPECIES = [
         name: 'Dusknoir'
     },
     {
-        name: 'Froslass'
+        name: 'Froslass',
+        formes: [
+            {
+                name: 'Mega-Froslass',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Rotom',
@@ -2184,7 +2274,14 @@ const SPECIES = [
         ]
     },
     {
-        name: 'Heatran'
+        name: 'Heatran',
+        natdex: 485,
+        formes: [
+            {
+                name: 'Heatran-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Regigigas'
@@ -2207,7 +2304,14 @@ const SPECIES = [
         name: 'Manaphy'
     },
     {
-        name: 'Darkrai'
+        name: 'Darkrai',
+        natdex: 491,
+        formes: [
+            {
+                name: 'Darkrai-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Shaymin',
@@ -2240,7 +2344,13 @@ const SPECIES = [
         name: 'Pignite'
     },
     {
-        name: 'Emboar'
+        name: 'Emboar',
+        formes: [
+            {
+                name: 'Mega-Emboar',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Oshawott'
@@ -2335,7 +2445,14 @@ const SPECIES = [
         name: 'Drilbur'
     },
     {
-        name: 'Excadrill'
+        name: 'Excadrill',
+        natdex: 530,
+        formes: [
+            {
+                name: 'Mega-Excadrill',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Audino'
@@ -2380,7 +2497,14 @@ const SPECIES = [
         name: 'Whirlipede'
     },
     {
-        name: 'Scolipede'
+        name: 'Scolipede',
+        natdex: 545,
+        formes: [
+            {
+                name: 'Mega-Scolipede',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Cottonee'
@@ -2454,7 +2578,14 @@ const SPECIES = [
         name: 'Scraggy'
     },
     {
-        name: 'Scrafty'
+        name: 'Scrafty',
+        natdex: 560,
+        formes: [
+            {
+                name: 'Mega-Meganium',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Sigilyph'
@@ -2633,7 +2764,14 @@ const SPECIES = [
         name: 'Eelektrik'
     },
     {
-        name: 'Eelektross'
+        name: 'Eelektross',
+        natdex: 604,
+        formes: [
+            {
+                name: 'Mega-Eelektross',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Elgyem'
@@ -2648,7 +2786,14 @@ const SPECIES = [
         name: 'Lampent'
     },
     {
-        name: 'Chandelure'
+        name: 'Chandelure',
+        natdex: 609,
+        formes: [
+            {
+                name: 'Mega-Chandelure',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Axew'
@@ -2695,7 +2840,14 @@ const SPECIES = [
         name: 'Golett'
     },
     {
-        name: 'Golurk'
+        name: 'Golurk',
+        natdex: 623,
+        formes: [
+            {
+                name: 'Golurk-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Pawniard'
@@ -2821,7 +2973,14 @@ const SPECIES = [
         name: 'Quilladin'
     },
     {
-        name: 'Chesnaught'
+        name: 'Chesnaught',
+        natdex: 652,
+        formes: [
+            {
+                name: 'Mega-Chesnaught',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Fennekin'
@@ -2830,7 +2989,14 @@ const SPECIES = [
         name: 'Braxien'
     },
     {
-        name: 'Delphox'
+        name: 'Delphox',
+        natdex: 655,
+        formes: [
+            {
+                name: 'Mega-Delphox',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Froakie'
@@ -2839,7 +3005,14 @@ const SPECIES = [
         name: 'Frogadier'
     },
     {
-        name: 'Greninja'
+        name: 'Greninja',
+        natdex: 658,
+        formes: [
+            {
+                name: 'Mega-Greninja',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Bunnelby'
@@ -2869,13 +3042,31 @@ const SPECIES = [
         name: 'Litleo'
     },
     {
-        name: 'Pyroar'
+        name: 'Pyroar',
+        natdex: 668,
+        formes: [
+            {
+                name: 'Mega-Pyroar',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Flabebe'
     },
     {
-        name: 'Floette'
+        name: 'Floette',
+        natdex: 670,
+        formes: [
+            {
+                name: 'Floette-Eternal',
+                index: 1
+            }
+            {
+                name: 'Mega-Floette',
+                index: 2
+            }
+        ]
     },
     {
         name: 'Florges'
@@ -2902,7 +3093,12 @@ const SPECIES = [
         name: 'Meowstic-M',
         formes: [
             {
-                name: 'Meowstic-F'
+                name: 'Meowstic-F',
+                index: 1
+            },
+            {
+                name: 'Meowstic-Mega',
+                index: 2
             }
         ]
     },
@@ -2931,19 +3127,40 @@ const SPECIES = [
         name: 'Inkay'
     },
     {
-        name: 'Malamar'
+        name: 'Malamar',
+        natdex: 687,
+        formes: [
+            {
+                name: 'Mega-Malamar',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Binacle'
     },
     {
-        name: 'Barbaracle'
+        name: 'Barbaracle',
+        natdex: 689,
+        formes: [
+            {
+                name: 'Mega-Barbaracle',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Skrelp'
     },
     {
-        name: 'Dragalge'
+        name: 'Dragalge',
+        natdex: 691,
+        formes: [
+            {
+                name: 'Mega-Dragalge',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Clauncher'
@@ -2973,7 +3190,14 @@ const SPECIES = [
         name: 'Sylveon'
     },
     {
-        name: 'Hawlucha'
+        name: 'Hawlucha',
+        natdex: 701,
+        formes: [
+            {
+                name: 'Mega-Hawlucha',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Dedenne'
@@ -3040,12 +3264,19 @@ const SPECIES = [
     },
     {
         name: 'Zygarde (50% Forme)',
+        natdex: 718,
         formes: [
             {
-                name: 'Zygarde (10% Forme)'
+                name: 'Zygarde (10% Forme)',
+                index: 1
             },
             {
-                name: 'Zygarde (Complete Forme)'
+                name: 'Zygarde (Complete Forme)',
+                index: 2
+            },
+            {
+                name: 'Zygarde-Mega',
+                index: 3
             }
         ]
     },
@@ -3124,7 +3355,14 @@ const SPECIES = [
         name: 'Crabrawler'
     },
     {
-        name: 'Crabominable'
+        name: 'Crabominable',
+        natdex: 740,
+        formes: [
+            {
+                name: 'Crabominable-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Oricorio (Baile Style)',
@@ -3235,7 +3473,14 @@ const SPECIES = [
         name: 'Wimpod'
     },
     {
-        name: 'Golisopod'
+        name: 'Golisopod',
+        natdex: 768,
+        formes: [
+            {
+                name: 'Golisopod-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Sandygast'
@@ -3271,7 +3516,14 @@ const SPECIES = [
         name: 'Bruxish'
     },
     {
-        name: 'Drampa'
+        name: 'Drampa',
+        natdex: 780,
+        formes: [
+            {
+                name: 'Mega-Drampa',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Dhelmise'
@@ -3342,7 +3594,14 @@ const SPECIES = [
         ]
     },
     {
-        name: 'Magearna'
+        name: 'Magearna',
+        natdex: 801,
+        formes: [
+            {
+                name: 'Magearna-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Marshadow'
@@ -3360,7 +3619,14 @@ const SPECIES = [
         name: 'Blacephalon'
     },
     {
-        name: 'Zeraora'
+        name: 'Zeraora',
+        natdex: 807,
+        formes: [
+            {
+                name: 'Zeraora-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Meltan'
@@ -3555,7 +3821,14 @@ const SPECIES = [
         name: 'Alcremie'
     },
     {
-        name: 'Falinks'
+        name: 'Falinks',
+        natdex: 870,
+        formes: [
+            {
+                name: 'Mega-Falinks',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Pinchurchin'
@@ -3872,7 +4145,14 @@ const SPECIES = [
         name: 'Capsakid'
     },
     {
-        name: 'Scovillain'
+        name: 'Scovillain',
+        natdex: 952,
+        formes: [
+            {
+                name: 'Scovillain-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Rellor'
@@ -3931,7 +4211,14 @@ const SPECIES = [
         name: 'Glimmet'
     },
     {
-        name: 'Glimmora'
+        name: 'Glimmora',
+        natdex: 970,
+        formes: [
+            {
+                name: 'Glimmora-Mega',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Greavard'
@@ -3958,11 +4245,17 @@ const SPECIES = [
         name: 'Tatsugiri (Curly)',
         formes: [
             {
-                name: 'Tatsugiri (Droopy)'
+                name: 'Tatsugiri (Droopy)',
+                index: 1
             },
             {
-                name: 'Tatsugiri (Stretchy)'
-            }
+                name: 'Tatsugiri (Stretchy)',
+                index: 2
+            },
+            {
+                name: 'Tatsugiri-Mega',
+                index: 3
+            },
         ]
     },
     {
@@ -4028,7 +4321,14 @@ const SPECIES = [
         name: 'Arctibax'
     },
     {
-        name: 'Baxcalibur'
+        name: 'Baxcalibur',
+        natdex: 998,
+        formes: [
+            {
+                name: 'Tatsugiri (Stretchy)',
+                index: 2
+            },
+        ]
     },
     {
         name: 'Gimmighoul (Chest)',
