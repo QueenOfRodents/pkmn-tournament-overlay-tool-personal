@@ -2591,7 +2591,7 @@ const SPECIES = [
     natdex: 560,
     formes: [
       {
-        name: "Meganium-Mega",
+        name: "Scrafty-Mega",
         index: 1,
       },
     ],
@@ -3107,7 +3107,7 @@ const SPECIES = [
     name: "Espurr",
   },
   {
-    name: "Meowstic-M",
+    name: "Meowstic",
     formes: [
       {
         name: "Meowstic-F",
@@ -3280,7 +3280,7 @@ const SPECIES = [
     name: "Yveltal",
   },
   {
-    name: "Zygarde (50% Forme)",
+    name: "Zygarde",
     natdex: 718,
     formes: [
       {
@@ -5315,6 +5315,10 @@ const ITEMS = [
   },
   {
     name: "Clefablite",
+    type: "Mega Stone",
+  },
+  {
+    name: "Crabominite",
     type: "Mega Stone",
   },
   {
