@@ -37,7 +37,7 @@ const SPECIES = [
         natdex: 3,
         formes: [
             {
-                name: "Mega-Venusaur",
+                name: "Venusaur-Mega",
                 index: 1
             }
         ]
@@ -55,11 +55,11 @@ const SPECIES = [
         natdex: 6,
         formes: [
             {
-                name: 'Mega-Charizard X',
+                name: 'Charizard-Mega-X',
                 index: 1
             },
             {
-                name: 'Mega-Charizard Y',
+                name: 'Charizard-Mega-Y',
                 index: 2
             }
         ]
@@ -77,7 +77,7 @@ const SPECIES = [
         natdex: 9,
         formes: [
             {
-                name: 'Mega-Blastoise',
+                name: 'Blastoise-Mega',
                 index: 1
             }
         ]
@@ -107,7 +107,7 @@ const SPECIES = [
         natdex: 15,
         formes: [
             {
-                name: 'Mega-Beedrill',
+                name: 'Beedrill-Mega',
                 index: 1
             }
         ]
@@ -125,7 +125,7 @@ const SPECIES = [
         natdex: 18,
         formes: [
             {
-                name: 'Mega-Pidgeot',
+                name: 'Pidgeot-Mega',
                 index: 1
             }
         ]
@@ -135,7 +135,7 @@ const SPECIES = [
         natdex: 19,
         formes: [
             {
-                name: 'Alolan Rattata',
+                name: 'Rattata-Alola',
                 index: 1
             }
         ]
@@ -145,7 +145,7 @@ const SPECIES = [
         natdex: 20,
         formes: [
             {
-                name: 'Alolan Raticate',
+                name: 'Raticate-Alola',
                 index: 1
             }
         ]
@@ -193,7 +193,7 @@ const SPECIES = [
         natdex: 27,
         formes: [
             {
-                name: 'Alolan Sandshrew',
+                name: 'Sandshrew-Alola',
                 index: 1
             }
         ]
@@ -203,7 +203,7 @@ const SPECIES = [
         natdex: 28,
         formes: [
             {
-                name: 'Alolan Sandslash',
+                name: 'Sandslash-Alola',
                 index: 1
             }
         ]
@@ -241,7 +241,7 @@ const SPECIES = [
         natdex: 36,
         formes: [
             {
-                name: 'Mega-Clefable',
+                name: 'Clefable-Mega',
                 index: 1
             }
         ]
@@ -251,7 +251,7 @@ const SPECIES = [
         natdex: 37,
         formes: [
             {
-                name: 'Alolan Vulpix',
+                name: 'Vulpix-Alola',
                 index: 1
             }
         ]
@@ -261,7 +261,7 @@ const SPECIES = [
         natdex: 38,
         formes: [
             {
-                name: 'Alolan Ninetales',
+                name: 'Ninetales-Alola',
                 index: 1
             }
         ]
@@ -315,7 +315,7 @@ const SPECIES = [
         natdex: 50,
         formes: [
             {
-                name: 'Alolan Diglett',
+                name: 'Diglett-Alola',
                 index: 1
             }
         ]
@@ -325,7 +325,7 @@ const SPECIES = [
         natdex: 51,
         formes: [
             {
-                name: 'Alolan Dugtrio',
+                name: 'Dugtrio-Alola',
                 index: 1
             }
         ]
@@ -335,11 +335,11 @@ const SPECIES = [
         natdex: 52,
         formes: [
             {
-                name: 'Alolan Meowth',
+                name: 'Meowth-Alola',
                 index: 1
             },
             {
-                name: 'Galarian Meowth',
+                name: 'Meowth-Galar',
                 index: 2
             },
         ]
@@ -349,7 +349,7 @@ const SPECIES = [
         natdex: 53,
         formes: [
             {
-                name: 'Alolan Persian',
+                name: 'Persian-Alola',
                 index: 1
             }
         ]
@@ -375,7 +375,7 @@ const SPECIES = [
         natdex: 58,
         formes: [
             {
-                name: 'Hisuian Growlithe',
+                name: 'Growlithe-Hisui',
                 index: 1
             }
         ]
@@ -385,7 +385,7 @@ const SPECIES = [
         natdex: 59,
         formes: [
             {
-                name: 'Hisuian Arcanine',
+                name: 'Arcanine-Hisui',
                 index: 1
             }
         ]
@@ -415,7 +415,7 @@ const SPECIES = [
         natdex: 65,
         formes: [
             {
-                name: 'Mega-Alakazam',
+                name: 'Alakazam-Mega',
                 index: 1
             }
         ]
@@ -445,7 +445,7 @@ const SPECIES = [
         natdex: 71,
         formes: [
             {
-                name: 'Mega-Victreebel',
+                name: 'Victreebel-Mega',
                 index: 1
             }
         ]
@@ -463,7 +463,7 @@ const SPECIES = [
         natdex: 74,
         formes: [
             {
-                name: 'Alolan Geodude',
+                name: 'Geodude-Alola',
                 index: 1
             }
         ]
@@ -473,7 +473,7 @@ const SPECIES = [
         natdex: 75,
         formes: [
             {
-                name: 'Alolan Graveler',
+                name: 'Graveler-Alola',
                 index: 1
             }
         ]
@@ -483,7 +483,7 @@ const SPECIES = [
         natdex: 76,
         formes: [
             {
-                name: 'Alolan Golem',
+                name: 'Golem-Alola',
                 index: 1
             }
         ]
@@ -493,7 +493,7 @@ const SPECIES = [
         natdex: 77,
         formes: [
             {
-                name: 'Galarian Ponyta',
+                name: 'Ponyta-Galar',
                 index: 1
             }
         ]
@@ -503,7 +503,7 @@ const SPECIES = [
         natdex: 78,
         formes: [
             {
-                name: 'Galarian Rapidash',
+                name: 'Rapidash-Galar',
                 index: 1
             }
         ]
@@ -513,7 +513,7 @@ const SPECIES = [
         natdex: 79,
         formes: [
             {
-                name: 'Galarian Slowpoke',
+                name: 'Slowpoke-Galar',
                 index: 1
             }
         ]
@@ -523,7 +523,7 @@ const SPECIES = [
         natdex: 80,
         formes: [
             {
-                name: 'Galarian Slowbro',
+                name: 'Slowbro-Galar',
                 index: 1
             }
         ]
@@ -541,7 +541,7 @@ const SPECIES = [
         natdex: 83,
         formes: [
             {
-                name: 'Galarian Farfetch\'d',
+                name: 'Farfetch\'d-Galar',
                 index: 1
             }
         ]
@@ -567,7 +567,7 @@ const SPECIES = [
         natdex: 88,
         formes: [
             {
-                name: 'Alolan Grimer',
+                name: 'Grimer-Alola',
                 index: 1
             }
         ]
@@ -577,7 +577,7 @@ const SPECIES = [
         natdex: 89,
         formes: [
             {
-                name: 'Alolan Muk',
+                name: 'Muk-Alola',
                 index: 1
             }
         ]
@@ -627,7 +627,7 @@ const SPECIES = [
         natdex: 100,
         formes: [
             {
-                name: 'Hisuian Voltorb',
+                name: 'Voltorb-Hisui',
                 index: 1
             }
         ]
@@ -637,7 +637,7 @@ const SPECIES = [
         natdex: 101,
         formes: [
             {
-                name: 'Hisuian Electrode',
+                name: 'Electrode-Hisui',
                 index: 1
             }
         ]
@@ -651,7 +651,7 @@ const SPECIES = [
         natdex: 103,
         formes: [
             {
-                name: 'Alolan Exeggutor',
+                name: 'Exeggutor-Alola',
                 index: 1
             }
         ]
@@ -665,7 +665,7 @@ const SPECIES = [
         natdex: 105,
         formes: [
             {
-                name: 'Alolan Marowak',
+                name: 'Marowak-Alola',
                 index: 1
             }
         ]
@@ -691,7 +691,7 @@ const SPECIES = [
         natdex: 110,
         formes: [
             {
-                name: 'Galarian Weezing',
+                name: 'Weezing-Galar',
                 index: 1
             }
         ]
@@ -717,7 +717,7 @@ const SPECIES = [
         natdex: 115,
         formes: [
             {
-                name: 'Mega-Kangaskhan',
+                name: 'Kangaskhan-Mega',
                 index: 1
             }
         ]
@@ -747,7 +747,7 @@ const SPECIES = [
         natdex: 121,
         formes: [
             {
-                name: 'Mega-Starmie',
+                name: 'Starmie-Mega',
                 index: 1
             }
         ]
@@ -757,7 +757,7 @@ const SPECIES = [
         natdex: 122,
         formes: [
             {
-                name: 'Galarian Mr. Mime',
+                name: 'Mr. Mime-Galar',
                 index: 1
             }
         ]
@@ -783,7 +783,7 @@ const SPECIES = [
         natdex: 127,
         formes: [
             {
-                name: 'Mega-Pinsir',
+                name: 'Pinsir-Mega',
                 index: 1
             }
         ]
@@ -793,15 +793,15 @@ const SPECIES = [
         natdex: 128,
         formes: [
             {
-                name: 'Paldean Tauros',
+                name: 'Tauros-Paldea-Combat',
                 index: 1
             },
             {
-                name: 'Paldean Tauros (Blaze Breed)',
+                name: 'Tauros-Paldea-Blaze',
                 index: 2
             },
             {
-                name: 'Paldean Tauros (Aqua Breed)',
+                name: 'Tauros-Paldea-Aqua',
                 index: 3
             }
         ]
@@ -815,7 +815,7 @@ const SPECIES = [
         natdex: 130,
         formes: [
             {
-                name: 'Mega-Gyarados',
+                name: 'Gyarados-Mega',
             },
         ]
     },
@@ -868,7 +868,7 @@ const SPECIES = [
         natdex: 142,
         formes: [
             {
-                name: 'Mega-Aerodactyl',
+                name: 'Aerodactyl-Mega',
                 index: 1
             }
         ]
@@ -882,7 +882,7 @@ const SPECIES = [
         natdex: 144,
         formes: [
             {
-                name: 'Galarian Articuno',
+                name: 'Articuno-Galar',
                 index: 1
             }
         ]
@@ -892,7 +892,7 @@ const SPECIES = [
         natdex: 145,
         formes: [
             {
-                name: 'Galarian Zapdos',
+                name: 'Zapdos-Galar',
                 index: 1
             }
         ]
@@ -902,7 +902,7 @@ const SPECIES = [
         natdex: 146,
         formes: [
             {
-                name: 'Galarian Moltres',
+                name: 'Moltres-Galar',
                 index: 1
             }
         ]
@@ -920,7 +920,7 @@ const SPECIES = [
         natdex: 149,
         formes: [
             {
-                name: 'Mega-Dragonite',
+                name: 'Dragonite-Mega',
                 index: 1
             }
         ]
@@ -930,11 +930,11 @@ const SPECIES = [
         natdex: 150,
         formes: [
             {
-                name: 'Mega-Mewtwo X',
+                name: 'Mewtwo-Mega-X',
                 index: 1
             },
             {
-                name: 'Mega-Mewtwo Y',
+                name: 'Mewtwo-Mega-Y',
                 index: 1
             }
         ]
@@ -955,7 +955,7 @@ const SPECIES = [
         natdex: 154,
         formes: [
             {
-                name: 'Mega-Meganium',
+                name: 'Meganium-Mega',
                 index: 1
             }
         ]
@@ -971,7 +971,7 @@ const SPECIES = [
         name: 'Typholsion',
         formes: [
             {
-                name: 'Hisuian Typhlosion',
+                name: 'Typhlosion-Hisui',
             },
         ]
     },
@@ -986,7 +986,7 @@ const SPECIES = [
         natdex: 160,
         formes: [
             {
-                name: 'Mega-Feraligatr',
+                name: 'Feraligatr-Mega',
                 index: 1
             }
         ]
@@ -1056,7 +1056,7 @@ const SPECIES = [
         name: 'Ampharos',
         formes: [
             {
-                name: 'Mega-Ampharos'
+                name: 'Ampharos-Mega'
             }
         ]
     },
@@ -1100,7 +1100,7 @@ const SPECIES = [
         name: 'Wooper',
         formes: [
             {
-                name: 'Paldean Wooper'
+                name: 'Wooper-Paldea'
             }
         ]
     },
@@ -1120,7 +1120,7 @@ const SPECIES = [
         name: 'Slowking',
         formes: [
             {
-                name: 'Galarian Slowking'
+                name: 'Slowking-Galar'
             }
         ]
     },
@@ -1152,7 +1152,7 @@ const SPECIES = [
         name: 'Steelix',
         formes: [
             {
-                name: 'Mega-Steelix'
+                name: 'Steelix-Mega'
             }
         ]
     },
@@ -1166,7 +1166,7 @@ const SPECIES = [
         name: 'Qwilfish',
         formes: [
             {
-                name: 'Hisuian Qwilfish'
+                name: 'Qwilfish-Hisui'
             }
         ]
     },
@@ -1180,7 +1180,7 @@ const SPECIES = [
         name: 'Heracross',
         formes: [
             {
-                name: 'Mega-Heracross'
+                name: 'Heracross-Mega'
             }
         ]
     },
@@ -1188,7 +1188,7 @@ const SPECIES = [
         name: 'Sneasel',
         formes: [
             {
-                name: 'Hisuian Sneasel'
+                name: 'Sneasel-Hisui'
             }
         ]
     },
@@ -1214,7 +1214,7 @@ const SPECIES = [
         name: 'Corsola',
         formes: [
             {
-                name: 'Galarian Corsola'
+                name: 'Corsola-Galar'
             }
         ]
     },
@@ -1235,7 +1235,7 @@ const SPECIES = [
         natdex: 227,
         formes: [
             {
-                name: 'Mega-Skarmory',
+                name: 'Skarmory-Mega',
                 index: 1
             }
         ]
@@ -1304,7 +1304,7 @@ const SPECIES = [
         name: 'Tyranitar',
         formes: [
             {
-                name: 'Mega-Tyranitar'
+                name: 'Tyranitar-Mega'
             }
         ]
     },
@@ -1328,7 +1328,7 @@ const SPECIES = [
         name: 'Sceptile',
         formes: [
             {
-                name: 'Mega-Sceptile'
+                name: 'Sceptile-Mega'
             }
         ]
     },
@@ -1342,7 +1342,7 @@ const SPECIES = [
         name: 'Blaziken',
         formes: [
             {
-                name: 'Mega-Blaziken'
+                name: 'Blaziken-Mega'
             }
         ]
     },
@@ -1356,7 +1356,7 @@ const SPECIES = [
         name: 'Swampert',
         formes: [
             {
-                name: 'Mega-Swampert'
+                name: 'Swampert-Mega'
             }
         ]
     },
@@ -1370,7 +1370,7 @@ const SPECIES = [
         name: 'Zigzagoon',
         formes: [
             {
-                name: 'Galarian Zigzagoon'
+                name: 'Zigzagoon-Galar'
             }
         ]
     },
@@ -1378,7 +1378,7 @@ const SPECIES = [
         name: 'Linoone',
         formes: [
             {
-                name: 'Galarian Linoone'
+                name: 'Linoone-Galar'
             }
         ]
     },
@@ -1437,7 +1437,7 @@ const SPECIES = [
         name: 'Gardevoir',
         formes: [
             {
-                name: 'Mega-Gardevoir'
+                name: 'Gardevoir-Mega'
             }
         ]
     },
@@ -1502,7 +1502,7 @@ const SPECIES = [
         name: 'Sableye',
         formes: [
             {
-                name: 'Mega-Sableye'
+                name: 'Sableye-Mega'
             }
         ]
     },
@@ -1510,7 +1510,7 @@ const SPECIES = [
         name: 'Mawile',
         formes: [
             {
-                name: 'Mega-Mawile'
+                name: 'Mawile-Mega'
             }
         ]
     },
@@ -1524,7 +1524,7 @@ const SPECIES = [
         name: 'Aggron',
         formes: [
             {
-                name: 'Mega-Aggron'
+                name: 'Aggron-Mega'
             }
         ]
     },
@@ -1535,7 +1535,7 @@ const SPECIES = [
         name: 'Medicham',
         formes: [
             {
-                name: 'Mega-Medicham'
+                name: 'Medicham-Mega'
             }
         ]
     },
@@ -1546,7 +1546,7 @@ const SPECIES = [
         name: 'Manectric',
         formes: [
             {
-                name: 'Mega-Manectric'
+                name: 'Manectric-Mega'
             }
         ]
     },
@@ -1578,7 +1578,7 @@ const SPECIES = [
         name: 'Sharpedo',
         formes: [
             {
-                name: 'Mega-Sharpedo'
+                name: 'Sharpedo-Mega'
             }
         ]
     },
@@ -1595,7 +1595,7 @@ const SPECIES = [
         name: 'Camerupt',
         formes: [
             {
-                name: 'Mega-Camerupt'
+                name: 'Camerupt-Mega'
             }
         ]
     },
@@ -1633,7 +1633,7 @@ const SPECIES = [
         name: 'Altaria',
         formes: [
             {
-                name: 'Mega-Altaria'
+                name: 'Altaria-Mega'
             }
         ]
     },
@@ -1689,13 +1689,13 @@ const SPECIES = [
         name: 'Castform',
         formes: [
             {
-                name: 'Castform (Sunny)'
+                name: 'Castform-Sunny'
             },
             {
-                name: 'Castform (Rainy)'
+                name: 'Castform-Rainy'
             },
             {
-                name: 'Castform (Snowy)'
+                name: 'Castform-Snowy'
             }
         ]
     },
@@ -1709,7 +1709,7 @@ const SPECIES = [
         name: 'Banette',
         formes: [
             {
-                name: 'Mega-Banette'
+                name: 'Banette-Mega'
             }
         ]
     },
@@ -1736,7 +1736,7 @@ const SPECIES = [
         name: 'Absol',
         formes: [
             {
-                name: 'Mega-Absol',
+                name: 'Absol-Mega',
                 index: 1
             },
             {
@@ -1755,7 +1755,7 @@ const SPECIES = [
         name: 'Glalie',
         formes: [
             {
-                name: 'Mega Glalie'
+                name: 'Glalie-Mega'
             }
         ]
     },
@@ -1793,7 +1793,7 @@ const SPECIES = [
         name: 'Salamence',
         formes: [
             {
-                name: 'Mega-Salamence'
+                name: 'Salamence-Mega'
             }
         ]
     },
@@ -1807,7 +1807,7 @@ const SPECIES = [
         name: 'Metagross',
         formes: [
             {
-                name: 'Mega-Metagross'
+                name: 'Metagross-Mega'
             }
         ]
     },
@@ -1824,7 +1824,7 @@ const SPECIES = [
         name: 'Latias',
         formes: [
             {
-                name: 'Mega-Latias'
+                name: 'Latias-Mega'
             }
         ]
     },
@@ -1832,7 +1832,7 @@ const SPECIES = [
         name: 'Latios',
         formes: [
             {
-                name: 'Mega-Latios'
+                name: 'Latios-Mega'
             }
         ]
     },
@@ -1840,7 +1840,7 @@ const SPECIES = [
         name: 'Kyogre',
         formes: [
             {
-                name: 'Primal Kyogre'
+                name: 'Kyogre-Primal'
             }
         ]
     },
@@ -1848,7 +1848,7 @@ const SPECIES = [
         name: 'Groudon',
         formes: [
             {
-                name: 'Primal Groudon'
+                name: 'Groudon-Primal'
             }
         ]
     },
@@ -1856,7 +1856,7 @@ const SPECIES = [
         name: 'Rayquaza',
         formes: [
             {
-                name: 'Mega-Rayquaza'
+                name: 'Rayquaza-Mega'
             }
         ]
     },
@@ -1867,13 +1867,13 @@ const SPECIES = [
         name: 'Deoxys',
         formes: [
             {
-                name: 'Deoxys (Attack Forme)'
+                name: 'Deoxys-Attack'
             },
             {
-                name: 'Deoxys (Defense Forme)'
+                name: 'Deoxys-Defense'
             },
             {
-                name: 'Deoxys (Speed Forme)'
+                name: 'Deoxys-Speed'
             }
         ]
     },
@@ -1961,24 +1961,26 @@ const SPECIES = [
         name: 'Bastiodon'
     },
     {
-        name: 'Burmy (Plant Cloak)',
+        name: 'Burmy',
         formes: [
             {
-                name: 'Burmy (Sand Cloak)'
+                name: 'Burmy-Sand',
+                index: 1
             },
             {
-                name: 'Burmy (Trash Cloak)'
+                name: 'Burmy-Trash',
+                index: 2
             }
         ]
     },
     {
-        name: 'Wormadam (Plant Cloak)',
+        name: 'Wormadam',
         formes: [
             {
-                name: 'Wormadam (Sandy Cloak)'
+                name: 'Wormadam-Sandy'
             },
             {
-                name: 'Wormadam (Trash Cloak)'
+                name: 'Wormadam-Trash'
             }
         ]
     },
@@ -2004,10 +2006,11 @@ const SPECIES = [
         name: 'Cherubi'
     },
     {
-        name: 'Cherrim (Overcast)',
+        name: 'Cherrim',
         formes: [
             {
-                name: 'Cherrim (Sunshine)'
+                name: 'Cherrim-Sunshine',
+                index: 1
             }
         ]
     },
@@ -2015,7 +2018,7 @@ const SPECIES = [
         name: 'Shellos (West Sea)',
         formes: [
             {
-                name: 'Shellos (East Sea)'
+                name: 'Shellos-East'
             }
         ]
     },
@@ -2023,7 +2026,7 @@ const SPECIES = [
         name: 'Gastrodon (West Sea)',
         formes: [
             {
-                name: 'Gastrodon (East Sea)'
+                name: 'Gastrodon-East'
             }
         ]
     },
@@ -2043,7 +2046,8 @@ const SPECIES = [
         name: 'Lopunny',
         formes: [
             {
-                name: 'Mega-Lopunny'
+                name: 'Lopunny-Mega',
+                index: 1
             }
         ]
     },
@@ -2118,7 +2122,7 @@ const SPECIES = [
         name: 'Lucario',
         formes: [
             {
-                name: 'Mega-Lucario',
+                name: 'Lucario-Mega',
                 index: 1
             },
             {
@@ -2164,7 +2168,7 @@ const SPECIES = [
         name: 'Abomasnow',
         formes: [
             {
-                name: 'Mega-Abomasnow'
+                name: 'Abomasnow-Mega'
             }
         ]
     },
@@ -2223,7 +2227,7 @@ const SPECIES = [
         name: 'Froslass',
         formes: [
             {
-                name: 'Mega-Froslass',
+                name: 'Froslass-Mega',
                 index: 1
             }
         ]
@@ -2232,19 +2236,24 @@ const SPECIES = [
         name: 'Rotom',
         formes: [
             {
-                name: 'Heat Rotom'
+                name: 'Rotom-Heat',
+                index: 1
             },
             {
-                name: 'Wash Rotom'
+                name: 'Rotom-Wash',
+                index: 2
             },
             {
-                name: 'Frost Rotom'
+                name: 'Rotom-Frost',
+                index: 3
             },
             {
-                name: 'Fan Rotom'
+                name: 'Rotom-Fan',
+                index: 4
             },
             {
-                name: 'Mow Rotom'
+                name: 'Rotom-Mow',
+                index: 5
             }
         ]
     },
@@ -2261,7 +2270,7 @@ const SPECIES = [
         name: 'Dialga',
         formes: [
             {
-                name: 'Dialga (Origin Forme)'
+                name: 'Dialga-Origin'
             }
         ]
     },
@@ -2269,7 +2278,7 @@ const SPECIES = [
         name: 'Palkia',
         formes: [
             {
-                name: 'Palkia (Origin Forme)'
+                name: 'Palkia-Origin'
             }
         ]
     },
@@ -2290,7 +2299,7 @@ const SPECIES = [
         name: 'Giratina',
         formes: [
             {
-                name: 'Giratina (Origin Forme)'
+                name: 'Giratina-Origin'
             }
         ]
     },
@@ -2317,7 +2326,7 @@ const SPECIES = [
         name: 'Shaymin',
         formes: [
             {
-                name: 'Shaymin (Sky Forme)'
+                name: 'Shaymin-Sky'
             }
         ]
     },
@@ -2347,7 +2356,7 @@ const SPECIES = [
         name: 'Emboar',
         formes: [
             {
-                name: 'Mega-Emboar',
+                name: 'Emboar-Mega',
                 index: 1
             }
         ]
@@ -2362,7 +2371,7 @@ const SPECIES = [
         name: 'Samurott',
         formes: [
             {
-                name: 'Hisuian Samurott'
+                name: 'Samurott-Hisui'
             }
         ]
     },
@@ -2449,7 +2458,7 @@ const SPECIES = [
         natdex: 530,
         formes: [
             {
-                name: 'Mega-Excadrill',
+                name: 'Excadrill-Mega',
                 index: 1
             }
         ]
@@ -2501,7 +2510,7 @@ const SPECIES = [
         natdex: 545,
         formes: [
             {
-                name: 'Mega-Scolipede',
+                name: 'Scolipede-Mega',
                 index: 1
             }
         ]
@@ -2519,18 +2528,18 @@ const SPECIES = [
         name: 'Lilligant',
         formes: [
             {
-                name: 'Hisuian Lilligant'
+                name: 'Lilligant-Hisui'
             }
         ]
     },
     {
-        name: 'Basculin (Red Stripe)',
+        name: 'Basculin',
         formes: [
             {
-                name: 'Basculin (Blue Stripe)'
+                name: 'Basculin-Blue-Striped'
             },
             {
-                name: 'Basculin (White Stripe)'
+                name: 'Basculin-White-Striped'
             }
         ]
     },
@@ -2547,7 +2556,7 @@ const SPECIES = [
         name: 'Darumaka',
         formes: [
             {
-                name: 'Galarian Darumaka'
+                name: 'Darumaka-Galar'
             }
         ]
     },
@@ -2555,13 +2564,13 @@ const SPECIES = [
         name: 'Darminitan',
         formes: [
             {
-                name: 'Darminitan (Zen Mode)'
+                name: 'Darminitan-Zen'
             },
             {
-                name: 'Galarian Darminitan'
+                name: 'Darminitan-Galar'
             },
             {
-                name: 'Galarian Darminitan (Zen Mode)'
+                name: 'Darminitan-Galar-Zen'
             }
         ]
     },
@@ -2582,7 +2591,7 @@ const SPECIES = [
         natdex: 560,
         formes: [
             {
-                name: 'Mega-Meganium',
+                name: 'Meganium-Mega',
                 index: 1
             }
         ]
@@ -2594,7 +2603,7 @@ const SPECIES = [
         name: 'Yamask',
         formes: [
             {
-                name: 'Galarian Yamask'
+                name: 'Yamask-Galar'
             }
         ]
     },
@@ -2623,7 +2632,7 @@ const SPECIES = [
         name: 'Zorua',
         formes: [
             {
-                name: 'Hisuian Zorua'
+                name: 'Zorua-Hisui'
             }
         ]
     },
@@ -2631,7 +2640,7 @@ const SPECIES = [
         name: 'Zoroark',
         formes: [
             {
-                name: 'Hisuian Zoroark'
+                name: 'Zoroark-Hisui'
             }
         ]
     },
@@ -2675,30 +2684,33 @@ const SPECIES = [
         name: 'Vanilluxe'
     },
     {
-        name: 'Deerling (Spring Form)',
+        name: 'Deerling',
         formes: [
             {
-                name: 'Deerling (Summer Form)'
+                name: 'Deerling-Summer',
+                index: 1
             },
             {
-                name: 'Deerling (Autumn Form)'
+                name: 'Deerling-Autumn',
+                index: 2
             },
             {
-                name: 'Deerling (Winter Form)'
+                name: 'Deerling-Winter',
+                index: 3
             }
         ]
     },
     {
-        name: 'Sawsbuck (Spring Form)',
+        name: 'Sawsbuck',
         formes: [
             {
-                name: 'Sawsbuck (Summer Form)'
+                name: 'Sawsbuck-Summer'
             },
             {
-                name: 'Sawsbuck (Autumn Form)'
+                name: 'Sawsbuck-Autumn'
             },
             {
-                name: 'Sawsbuck (Winter Form)'
+                name: 'Sawsbuck-Winter'
             }
         ]
     },
@@ -2768,7 +2780,7 @@ const SPECIES = [
         natdex: 604,
         formes: [
             {
-                name: 'Mega-Eelektross',
+                name: 'Eelektross-Mega',
                 index: 1
             }
         ]
@@ -2790,7 +2802,7 @@ const SPECIES = [
         natdex: 609,
         formes: [
             {
-                name: 'Mega-Chandelure',
+                name: 'Chandelure-Mega',
                 index: 1
             }
         ]
@@ -2823,7 +2835,7 @@ const SPECIES = [
         name: 'Stunfisk',
         formes: [
             {
-                name: 'Galarian Stunfisk'
+                name: 'Stunfisk-Galar'
             }
         ]
     },
@@ -2865,7 +2877,7 @@ const SPECIES = [
         name: 'Braviary',
         formes: [
             {
-                name: 'Hisuian Braviary'
+                name: 'Braviary-Hisui'
             }
         ]
     },
@@ -2906,18 +2918,18 @@ const SPECIES = [
         name: 'Virizion'
     },
     {
-        name: 'Tornadus (Incarnate Forme)',
+        name: 'Tornadus',
         formes: [
             {
-                name: 'Tornadus (Therian Forme)'
+                name: 'Tornadus-Therian'
             }
         ]
     },
     {
-        name: 'Thundurus (Incarnate Forme)',
+        name: 'Thundurus',
         formes: [
             {
-                name: 'Thundurus (Therian Forme)'
+                name: 'Thundurus-Therian'
             }
         ]
     },
@@ -2928,10 +2940,10 @@ const SPECIES = [
         name: 'Zekrom'
     },
     {
-        name: 'Landorus (Incarnate Forme)',
+        name: 'Landorus-Incarnate',
         formes: [
             {
-                name: 'Landorus (Therian Forme)'
+                name: 'Landorus-Therian'
             }
         ]
     },
@@ -2939,10 +2951,10 @@ const SPECIES = [
         name: 'Kyurem',
         formes: [
             {
-                name: 'White Kyurem'
+                name: 'Kyurem-White'
             },
             {
-                name: 'Black Kyurem'
+                name: 'Kyurem-Black'
             }
         ]
     },
@@ -2950,15 +2962,16 @@ const SPECIES = [
         name: 'Keldeo',
         formes: [
             {
-                name: 'Keldeo (Resolute)'
+                name: 'Keldeo-Resolute'
             }
         ]
     },
     {
-        name: 'Meloetta (Aria Forme)',
+        name: 'Meloetta',
         formes: [
             {
-                name: 'Meloetta (Pirouette Forme)'
+                name: 'Meloetta-Pirouette',
+                index: 1
             }
         ]
     },
@@ -2977,7 +2990,7 @@ const SPECIES = [
         natdex: 652,
         formes: [
             {
-                name: 'Mega-Chesnaught',
+                name: 'Chesnaught-Mega',
                 index: 1
             }
         ]
@@ -2993,7 +3006,7 @@ const SPECIES = [
         natdex: 655,
         formes: [
             {
-                name: 'Mega-Delphox',
+                name: 'Delphox-Mega',
                 index: 1
             }
         ]
@@ -3009,8 +3022,12 @@ const SPECIES = [
         natdex: 658,
         formes: [
             {
-                name: 'Mega-Greninja',
-                index: 1
+                name: 'Greninja-Ash',
+                index: 2
+            },
+            {
+                name: 'Greninja-Mega',
+                index: 3
             }
         ]
     },
@@ -3046,7 +3063,7 @@ const SPECIES = [
         natdex: 668,
         formes: [
             {
-                name: 'Mega-Pyroar',
+                name: 'Pyroar-Mega',
                 index: 1
             }
         ]
@@ -3063,7 +3080,7 @@ const SPECIES = [
                 index: 1
             }
             {
-                name: 'Mega-Floette',
+                name: 'Floette-Mega',
                 index: 2
             }
         ]
@@ -3131,7 +3148,7 @@ const SPECIES = [
         natdex: 687,
         formes: [
             {
-                name: 'Mega-Malamar',
+                name: 'Malamar-Mega',
                 index: 1
             }
         ]
@@ -3144,7 +3161,7 @@ const SPECIES = [
         natdex: 689,
         formes: [
             {
-                name: 'Mega-Barbaracle',
+                name: 'Barbaracle-Mega',
                 index: 1
             }
         ]
@@ -3157,7 +3174,7 @@ const SPECIES = [
         natdex: 691,
         formes: [
             {
-                name: 'Mega-Dragalge',
+                name: 'Dragalge-Mega',
                 index: 1
             }
         ]
@@ -3194,7 +3211,7 @@ const SPECIES = [
         natdex: 701,
         formes: [
             {
-                name: 'Mega-Hawlucha',
+                name: 'Hawlucha-Mega',
                 index: 1
             }
         ]
@@ -3212,7 +3229,7 @@ const SPECIES = [
         name: 'Sliggoo',
         formes: [
             {
-                name: 'Hisuian Sliggoo'
+                name: 'Sliggoo-Hisui'
             }
         ]
     },
@@ -3220,7 +3237,7 @@ const SPECIES = [
         name: 'Goodra',
         formes: [
             {
-                name: 'Hisuian Goodra'
+                name: 'Goodra-Hisui'
             }
         ]
     },
@@ -3246,7 +3263,7 @@ const SPECIES = [
         name: 'Avalugg',
         formes: [
             {
-                name: 'Hisuian Avalugg'
+                name: 'Avalugg-Hisui'
             }
         ]
     },
@@ -3267,11 +3284,11 @@ const SPECIES = [
         natdex: 718,
         formes: [
             {
-                name: 'Zygarde (10% Forme)',
+                name: 'Zygarde-10%',
                 index: 1
             },
             {
-                name: 'Zygarde (Complete Forme)',
+                name: 'Zygarde-Complete',
                 index: 2
             },
             {
@@ -3284,10 +3301,10 @@ const SPECIES = [
         name: 'Diancie'
     },
     {
-        name: 'Hoopa (Confined)',
+        name: 'Hoopa',
         formes: [
             {
-                name: 'Hoopa (Unbound)'
+                name: 'Hoopa-Unbound'
             }
         ]
     },
@@ -3305,7 +3322,7 @@ const SPECIES = [
         name: 'Decidueye',
         formes: [
             {
-                name: 'Hisuian Decidueye'
+                name: 'Decidueye-Hisui'
             }
         ]
     },
@@ -3365,16 +3382,16 @@ const SPECIES = [
         ]
     },
     {
-        name: 'Oricorio (Baile Style)',
+        name: 'Oricorio',
         formes: [
             {
-                name: 'Oricorio (Pom-Pom Style)'
+                name: 'Oricorio-Pom-Pom'
             },
             {
-                name: 'Oricorio (Pa\'u Style)'
+                name: 'Oricorio-Pa\'u'
             },
             {
-                name: 'Oricorio (Sensu Style)'
+                name: 'Oricorio-Sensu'
             }
         ]
     },
@@ -3391,13 +3408,12 @@ const SPECIES = [
         name: 'Lycanroc',
         formes: [
             {
-                name: 'Lycanroc (Midday)'
+                name: 'Lycanroc-Midnight',
+                index: 1
             },
             {
-                name: 'Lycanroc (Midnight)'
-            },
-            {
-                name: 'Lycanroc (Dusk)'
+                name: 'Lycanroc-Dusk',
+                index: 2
             }
         ]
     },
@@ -3405,7 +3421,7 @@ const SPECIES = [
         name: 'Wishiwashi',
         formes: [
             {
-                name: 'Wishiwashi (Schooling)'
+                name: 'Wishiwashi-Schooling'
             }
         ]
     },
@@ -3520,7 +3536,7 @@ const SPECIES = [
         natdex: 780,
         formes: [
             {
-                name: 'Mega-Drampa',
+                name: 'Drampa-Mega',
                 index: 1
             }
         ]
@@ -3586,10 +3602,16 @@ const SPECIES = [
         name: 'Necrozma',
         formes: [
             {
-                name: 'Necrozma (Dusk Mane)'
+                name: 'Necrozma-Dusk-Mane',
+                index: 1
             },
             {
-                name: 'Necrozma (Dawn Wings)'
+                name: 'Necrozma-Dawn-Wings',
+                index: 2
+            },
+            {
+                name: 'Necrozma-Ultra',
+                index: 3
             }
         ]
     },
@@ -3753,10 +3775,11 @@ const SPECIES = [
         name: 'Toxel'
     },
     {
-        name: 'Toxtricity (Amped)',
+        name: 'Toxtricity',
         formes: [
             {
-                name: 'Toxtricity: (Low Key)'
+                name: 'Toxtricity-Low-Key',
+                index: 1
             }
         ]
     },
@@ -3773,10 +3796,23 @@ const SPECIES = [
         name: 'Grapploct'
     },
     {
-        name: 'Sinistea'
+        name: 'Sinistea',
+        natdex: 854,
+        formes: [
+            {
+                name: 'Sinistea-Antique',
+                index: 1
+            }
     },
     {
-        name: 'Polteageist'
+        name: 'Polteageist',
+        natdex: 855,
+        formes: [
+            {
+                name: 'Polteageist-Antique',
+                index: 1
+            }
+        ]
     },
     {
         name: 'Hatenna'
@@ -3825,7 +3861,7 @@ const SPECIES = [
         natdex: 870,
         formes: [
             {
-                name: 'Mega-Falinks',
+                name: 'Falinks-Mega',
                 index: 1
             }
         ]
@@ -3843,10 +3879,10 @@ const SPECIES = [
         name: 'Stonjourner'
     },
     {
-        name: 'Eiscue (Ice Face)',
+        name: 'Eiscue',
         formes: [
             {
-                names: 'Eiscue (Noice Face)'
+                names: 'Eiscue-Noice'
             }
         ]
     },
@@ -3895,7 +3931,7 @@ const SPECIES = [
         name: 'Zacian',
         formes: [
             {
-                name: 'Zacian (Crowned Sword)'
+                name: 'Zacian-Crowned'
             }
         ]
     },
@@ -3903,7 +3939,7 @@ const SPECIES = [
         name: 'Zamazenta',
         formes: [
             {
-                name: 'Zamazenta (Crowned Shield)'
+                name: 'Zamazenta-Crowned'
             }
         ]
     },
@@ -3914,10 +3950,10 @@ const SPECIES = [
         name: 'Kubfu'
     },
     {
-        name: 'Urshifu (Single Strike Style)',
+        name: 'Urshifu',
         formes: [
             {
-                name: 'Urshifu (Rapid Strike Style)'
+                name: 'Urshifu-Rapid-Strike'
             }
         ]
     },
@@ -3940,10 +3976,12 @@ const SPECIES = [
         name: 'Calyrex',
         formes: [
             {
-                name: 'Calyrex (Ice Rider)'
+                name: 'Calyrex-Ice',
+                index: 1
             },
             {
-                name: 'Calyrex (Shadow Rider)'
+                name: 'Calyrex-Shadow',
+                index: 2
             }
         ]
     },
@@ -3958,7 +3996,8 @@ const SPECIES = [
         name: 'Ursaluna',
         formes: [
             {
-                name: 'Bloodmoon Ursaluna'
+                name: 'Ursaluna-Bloodmoon',
+                index: 1
             }
         ]
     },
@@ -3966,7 +4005,8 @@ const SPECIES = [
         name: 'Basculegion-M',
         formes: [
             {
-                name: 'Basculegion-F'
+                name: 'Basculegion-F',
+                index: 1
             }
         ]
     },
@@ -3977,10 +4017,11 @@ const SPECIES = [
         name: 'Overqwil'
     },
     {
-        name: 'Enamorus (Incarnate Forme)',
+        name: 'Enamorus',
         formes: [
             {
-                name: 'Enamorus (Therian Forme)'
+                name: 'Enamorus-Therian',
+                index: 1
             }
         ]
     },
@@ -4048,10 +4089,10 @@ const SPECIES = [
         name: 'Tandemaus'
     },
     {
-        name: 'Maushold (Family of Three)',
+        name: 'Maushold',
         formes: [
             {
-                name: 'Maushold (Family of Four)'
+                name: 'Maushold-Four'
             }
         ]
     },
@@ -4071,16 +4112,19 @@ const SPECIES = [
         name: 'Arboliva'
     },
     {
-        name: 'Squawkabilly (Green Plumage)',
+        name: 'Squawkabilly',
         formes: [
             {
-                name: 'Squawkabilly (Blue Plumage)'
+                name: 'Squawkabilly-Blue',
+                index: 1
             },
             {
-                name: 'Squawkabilly (Yellow Plumage)'
+                name: 'Squawkabilly-Yellow',
+                index: 2
             },
             {
-                name: 'Squawkabilly (White Plumage)'
+                name: 'Squawkabilly-White',
+                index: 3
             },
         ]
     },
@@ -4191,7 +4235,7 @@ const SPECIES = [
         name: 'Palafin',
         formes: [
             {
-                name: 'Palafin (Hero)'
+                name: 'Palafin-Hero'
             }
         ]
     },
@@ -4242,14 +4286,14 @@ const SPECIES = [
         name: 'Dondozo'
     },
     {
-        name: 'Tatsugiri (Curly)',
+        name: 'Tatsugiri',
         formes: [
             {
-                name: 'Tatsugiri (Droopy)',
+                name: 'Tatsugiri-Droopy',
                 index: 1
             },
             {
-                name: 'Tatsugiri (Stretchy)',
+                name: 'Tatsugiri-Stretchy',
                 index: 2
             },
             {
@@ -4268,10 +4312,10 @@ const SPECIES = [
         name: 'Farigiraf'
     },
     {
-        name: 'Dudunsparce (Three-Segment)',
+        name: 'Dudunsparce',
         formes: [
             {
-                name: 'Dudunsparce (Four-Segment)'
+                name: 'Dudunsparce-Three-Segment)'
             }
         ]
     },
@@ -4325,16 +4369,16 @@ const SPECIES = [
         natdex: 998,
         formes: [
             {
-                name: 'Tatsugiri (Stretchy)',
+                name: 'Baxcalibur-Mega',
                 index: 2
             },
         ]
     },
     {
-        name: 'Gimmighoul (Chest)',
+        name: 'Gimmighoul',
         formes: [
             {
-                name: 'Gimmighoul (Roaming)'
+                name: 'Gimmighoul-Roaming'
             }
         ]
     },
@@ -4375,10 +4419,22 @@ const SPECIES = [
         name: 'Dipplin'
     },
     {
-        name: 'Polchageist'
+        name: 'Polchageist',
+        natdex: 1012,
+        formes: [
+            {
+                name: 'Polchageist-Artisan',
+                index: 1
+            }
     },
     {
-        name: 'Sinischa'
+        name: 'Sinistcha',
+        natdex: 1013,
+        formes: [
+            {
+                name: 'Sinistcha-Masterpiece',
+                index: 1
+            }
     },
     {
         name: 'Okidogi'
@@ -4390,16 +4446,19 @@ const SPECIES = [
         name: 'Fezandipiti'
     },
     {
-        name: 'Ogerpon (Teal Mask)',
+        name: 'Ogerpon',
         formes: [
             {
-                name: 'Ogerpon (Wellspring Mask)'
+                name: 'Ogerpon-Wellspring',
+                index: 1
             },
             {
-                name: 'Ogerpon (Hearthflame Mask)'
+                name: 'Ogerpon-Hearthflame',
+                index: 2
             },
             {
-                name: 'Ogerpon (Cornerstone Mask)'
+                name: 'Ogerpon-Cornerstone',
+                index: 3
             }
         ]
     },
@@ -4425,7 +4484,12 @@ const SPECIES = [
         name: 'Terapagos',
         formes: [
             {
-                name: 'Terapagos (Terastal Forme)'
+                name: 'Terapagos-Terastal',
+                index: 1
+            },
+            {
+                name: 'Terapagos-Stellar',
+                index: 2
             }
         ]
     },
