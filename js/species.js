@@ -4785,9 +4785,6 @@ const ITEMS = [
         name: 'Never-Melt Ice'
     },
     {
-        name: 'Normal Gem'
-    },
-    {
         name: 'Odd Incense'
     },
     {
@@ -4924,6 +4921,9 @@ const ITEMS = [
     },
     {
         name: 'Terrain Extender'
+    },
+    {
+        name: 'Thick Club'
     },
     {
         name: 'Throat Spray'
@@ -5216,12 +5216,472 @@ const ITEMS = [
     },
     //Mega Stones
     {
-        name: 'Yache Berry',
+        name: 'Abomasite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Absolite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Absolite Z',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Aerodactylite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Aggronite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Alakazite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Altarianite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Ampharosite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Audinite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Banettite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Barbaracite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Baxcalibrite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Beedrillite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Blastoisinite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Blazikenite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Cameruptite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Charizardite X',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Charizardite Y',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Chesnaughtite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Chimechite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Clefablite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Darkrainite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Delphoxite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Diancite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Dragoninite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Eelektrossite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Emboarite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Excadrite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Falinksite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Feraligatite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Floettite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Froslassite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Galladite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Garchompite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Garchompite Z',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Clefablite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Gardevoirite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Gengarite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Glalitite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Golisopite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Greninjite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Golisopite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Hawluchanite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Houndoominite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Kangaskhanite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Latiasite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Latiosite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Lopunnite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Lucarionite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Lucarionite Z',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Magearnite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Malamarite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Manectite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Mawilite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Medichamite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Meganiumite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Meowsticite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Mewtwonite X',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Mewtwonite Y',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Pidgeotite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Pinsirite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Pyroarite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Raichunite X',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Raichunite Y',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Sablenite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Salamencite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Sceptilite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Scizorite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Scolipite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Sablenite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Scovillainite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Scraftinite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Sharpedonite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Skarmorite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Slowbronite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Staraptite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Starminite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Steelixite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Tatsugirinite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Tyranitarite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Venasaurite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Victreebelite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Zeraorite',
+        type: 'Mega Stone'
+    },
+    {
+        name: 'Zygardite',
         type: 'Mega Stone'
     },
     //Z-Crystals
     {
-        name: 'Yache Berry',
+        name: 'Aloraichium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Buginium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Darkinium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Decidium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Dragonium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Eevium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Electrium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Fairium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Fightinium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Firium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Flyinium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Ghostium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Grassium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Icium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Aloraichium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Incinium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Kommonium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Lycanium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Marshadium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Mewnium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Mimikium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Pikanium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Pikashunium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Poisinium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Primarium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Psychium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Rockium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Snorlium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Solganium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Steelium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Tapunium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Ultranecrozium Z',
+        type: 'Z-Crystal'
+    },
+    {
+        name: 'Waterium Z',
         type: 'Z-Crystal'
     },
 ]
