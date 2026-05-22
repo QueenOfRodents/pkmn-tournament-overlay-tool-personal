@@ -1,7 +1,28 @@
-# TourKOAL (Tournament Knowledge and Overlay Assistant for Livestreams) 
-[v1.3.2 - Check it out!](https://www.skeletom.net/pkmn/tournament-overlay/)
+# Pachirisu pun (Information )
+[Unofficial v1.3.3 - Check it out!](https://queenofrodents.github.io/pkmn-tournament-overlay-tool-personal/)
 
 ![TouKOAL Icon illustrated by bonbombs](./img/site/logo_notext1x.png)
+
+## The Tweaks
+Changes so far from the last commit to TourKOAL include:
+- A new color scheme and branding! I wanted to keep TourKOAL distinctive for what it is.
+- Fixes:
+   - Froslass's name is now properly spelled.
+   - Heat Rock and Thick Club's omission from the list of items has been fixed.
+- Feature Additions:
+   - Ability to check whether a Pokémon is Dynamaxed or Mega Evolved, akin to how the Terastallization feature functions.
+   - Addition of Z-A and Mega Dimension forms to the list.
+   - Addition of Mega Stones and Z-Crystals in the items list.
+   - Ability to use sprites! (Credits for Gen 5 and on down below)
+
+## The Reason
+Allow me to start this off by saying that I forked this because the original has been an invaluable tool to me.
+
+However, I noticed a few minor issues as I continued to use it, and as the last update was 2 years ago, I did not want to pester Tom Farro. As well, with the release of Pokémon Champions revealing that previous battle mechanics would be returning, I have taken it upon myself to fix the inconsistencies left behind by Farro. Most of the work has been done by them, and their knowledge in creating this program was invaluable.
+
+This fork is mainly intended for my own usage, but if, for some reason, this finds its way into your hands, please support the original as well. I am only iterating on the work of the original.
+
+# TourKOAL (Tournament Knowledge and Overlay Assistant for Livestreams) 
 
 ## The Why
 Are you a Pokémon Professor? Have you organized a local tournament? Have you tried streaming those locals like they do for Regionals? It's not easy, right? 
