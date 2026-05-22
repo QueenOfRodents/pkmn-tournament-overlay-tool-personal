@@ -8,12 +8,12 @@ Changes so far from the last commit to TourKOAL include:
 - A new color scheme and branding! I wanted to keep TourKOAL distinctive for what it is.
 - Fixes:
    - Multiple names are now properly spelled.
-   - Heat Rock and Thick Club's omission from the list of items has been fixed.
+   - Heat Rock, Stick, and Thick Club's omission from the list of items has been fixed.
 - Feature Additions:
-   - Ability to check whether a Pokémon is Dynamaxed or Mega Evolved, akin to how the Terastallization feature functions.
-   - Addition of Z-A and Mega Dimension forms to the list.
-   - Addition of Mega Stones and Z-Crystals in the items list.
-   - Ability to use sprites! (Credits for Gen 5 and on down below)
+   - Ability to check whether a Pokémon is Dynamaxed or Mega Evolved, akin to how the Terastallization feature functions. (WIP)
+   - Addition of Z-A and Mega Dimension forms to the list. (Done!)
+   - Addition of Mega Stones and Z-Crystals in the items list. (Done!)
+   - Ability to use sprites! (Credits for Gen 5 and on down below) (WIP)
 
 ## The Reason
 Allow me to start this off by saying that I forked this because the original has been an invaluable tool to me.
