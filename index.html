@@ -18,12 +18,12 @@
                 <div id="navContent" class="heading rounded-corner-small no-margins font-small bold nav-content">
                     <div class="text-align-left">
                         <span>🔎</span>
-                        <a href="#general">Setup</a> - 
-                        <a href="#battle">Battle</a> - 
-                        <a href="#pairings">Pairings</a> - 
-                        <a href="#standings">Standings</a> - 
-                        <a href="#players">Players and Teams</a> - 
-                        <a href="#about">Contact</a> | 
+                        <a href="#general">Setup</a> -
+                        <a href="#battle">Battle</a> -
+                        <a href="#pairings">Pairings</a> -
+                        <a href="#standings">Standings</a> -
+                        <a href="#players">Players and Teams</a> -
+                        <a href="#about">Contact</a> |
                         <label for="connect" class="bold obsStatus">...</label>
                     </div>
                     <div class="text-align-right"><span>📚</span><a id="changelog" href="https://github.com/FomTarro/pkmn-tournament-overlay-tool/releases" target="_blank">Changelog</a></div>
@@ -46,11 +46,11 @@
                                         Welcome to <b>TourKOAL</b> (<b>Tour</b>nament <b>K</b>nowledge and <b>O</b>verlay <b>A</b>ssistant for <b>L</b>ivestreams)!
                                     </p>
                                     <p>
-                                        The goal of this tool is to easily compile player and team information such that it can be quickly displayed on the fly during Pokémon tournament matches, 
-                                        helping you build a professional-quality overlay in OBS for your broadcast with as little manual work as possible. 
+                                        The goal of this tool is to easily compile player and team information such that it can be quickly displayed on the fly during Pokémon tournament matches,
+                                        helping you build a professional-quality overlay in OBS for your broadcast with as little manual work as possible.
                                     </p>
                                     <p>
-                                        No longer will you need to scramble through hundreds of image files by hand as players reveal which of their Pokémon they brought to the game, 
+                                        No longer will you need to scramble through hundreds of image files by hand as players reveal which of their Pokémon they brought to the game,
                                         nor will you need to manually adjust OBS sources when items are consumed or Pokémon faint! You can even automatically track and update player pairings and standings to display on stream!
                                     </p>
                                     <p>
@@ -109,7 +109,7 @@
                     <div id="battleContent">
                         <div class="flex flex-col rounded-corner">
                             <p>
-                                You can select which players are currently battling, and then easily select which Pokémon they reveal, as they reveal them. 
+                                You can select which players are currently battling, and then easily select which Pokémon they reveal, as they reveal them.
                                 You can also display the Pokémon's condition, as well as its held item and the item's condition.
                             </p>
                             <div>
@@ -121,7 +121,7 @@
                             <div>
                                 <label for="battleSceneSelect" class="bold">Battle Overlay OBS Scene</label>
                             </div>
-                            <input id="battleSceneSelect" class="sceneSelect sourceSetting" target="battle" placeholder="Select OBS source..." autoComplete="on" list="sceneOptions" type="text"/> 
+                            <input id="battleSceneSelect" class="sceneSelect sourceSetting" target="battle" placeholder="Select OBS source..." autoComplete="on" list="sceneOptions" type="text"/>
                         </div>
                         <div class="flex flex-col rounded-corner">
                             <div class="flex-center">
@@ -173,7 +173,7 @@
                                                 <optgroup label="Players" class="optionContent">
 
                                                 </optgroup>
-                                            </select> → 
+                                            </select> →
                                             <input id="p1_name_obs_output" class="sourceSelect sourceSetting" placeholder="Select OBS source..." autoComplete="on" list="textSourceOptions_battle"/>
                                         </div>
                                     </div>
@@ -204,7 +204,7 @@
                                                 <optgroup label="Players" class="optionContent">
 
                                                 </optgroup>
-                                            </select> → 
+                                            </select> →
                                             <input id="p2_name_obs_output" class="sourceSelect sourceSetting" placeholder="Select OBS source..." autoComplete="on" list="textSourceOptions_battle"/>
                                         </div>
                                     </div>
@@ -300,7 +300,7 @@
                                 <input id="pairingsSingleSplitter" class="input-small generalSetting" value="/" min="3" max="3" size="3" type="text"/>
                             </div>
                             <div>
-                                <input id="pairingsSingle" readonly> → 
+                                <input id="pairingsSingle" readonly> →
                                 <input id="pairingsSingleSource" class="sourceSelect sourceSetting" placeholder="Select OBS source..." autoComplete="on" list="textSourceOptions_pairings"/>
                             </div>
                         </div>
@@ -379,7 +379,7 @@
                         <div class="flex flex-col rounded-corner">
                             <label for="standingsSceneSelect" class="bold">Standings as Single Line</label>
                             <span class="font-small">(Optional, useful for a ticker/marquee element.)</span>
-                            <div class="font-small flex flex-center">   
+                            <div class="font-small flex flex-center">
                                 <label for="standingsSingleOrdinalToggle">Include ordinal? (ex. 1st, 2nd...)</label>
                                 <input id="standingsSingleOrdinalToggle" class="generalSetting ordinalToggle" type="checkbox" checked>
                             </div>
@@ -388,7 +388,7 @@
                                 <input id="standingsSingleSplitter" class="input-small generalSetting" value="/" min="3" max="3" size="3" type="text"/>
                             </div>
                             <div>
-                                <input id="standingsSingle" readonly> → 
+                                <input id="standingsSingle" readonly> →
                                 <input id="standingsSingleSource" class="sourceSelect sourceSetting" placeholder="Select OBS source..." autoComplete="on" list="textSourceOptions_standings"/>
                             </div>
                         </div>
@@ -415,7 +415,7 @@
                             <label for="playerImport" class="bold">Import from TOM</label>
                             <span class="font-small">(These will be in your <code class="code notranslate">TOM/data/reports</code> directory!)</span>
                             <div class="font-small flex flex-center">
-                                <span>Abbreviate names on import (ex. 'Ash Ketchum' → 'Ash K.') for... </span> 
+                                <span>Abbreviate names on import (ex. 'Ash Ketchum' → 'Ash K.') for... </span>
                                 <label for="abbreviateJuniorsToggle">Juniors?</label>
                                 <input id="abbreviateJuniorsToggle" class="generalSetting" type="checkbox">
                                 <label for="abbreviateSeniorsToggle">Seniors?</label>
@@ -451,7 +451,7 @@
                                                 <div>Player Name</div>
                                             </div>
                                         </th>
-                                        <th>                       
+                                        <th>
                                             <div class="red rounded-corner-small">
                                                 <div>Mon #1</div>
                                             </div>
@@ -493,9 +493,9 @@
         <hr>
             <footer id="about" class="section flex flex-col center">
                 <span class="font-small">
-                    Developed by Professor <a href="https://www.skeletom.net" target="_blank">Tom "Skeletom" Farro</a> - 
-                    Modified for Usage by <a href="https://rodent-may-cry.nekoweb.org/" target="_blank">Queen of Rodents</a> - 
-                    Open Source: <a href="https://github.com/FomTarro/pkmn-tournament-overlay-tool" target="_blank">GitHub</a> - 
+                    Developed by Professor <a href="https://www.skeletom.net" target="_blank">Tom "Skeletom" Farro</a> -
+                    Modified for Usage by <a href="https://rodent-may-cry.nekoweb.org/" target="_blank">Queen of Rodents</a> -
+                    Open Source: <a href="https://github.com/FomTarro/pkmn-tournament-overlay-tool" target="_blank">GitHub</a> -
                     Contact: <a href="mailto:ishmaelindustries@protonmail.com?subject=About the Edited Tournament Overlay Tool">ishmaelindustries@protonmail.com</a>
                 </span>
                 <span class="font-small">(This tool is not officially affiliated with or endorsed by <a href="https://www.pokemon.com/us/about-pokemon/" target="_blank">The Pokémon Company International (TPCi)</a> or the <a href="https://www.pokemon.com/us/play-pokemon" target="_blank">Play! Pokémon</a> program)</span>
@@ -524,7 +524,7 @@
                                             <option class="monOption notranslate">Mon5</option>
                                             <option class="monOption notranslate">Mon6</option>
                                         </optgroup>
-                                    </select> → 
+                                    </select> →
                                     <input id="mon_obs_output_x" class="sourceSelect sourceSetting" placeholder="Select OBS source..." autoComplete="on" list="browserSourceOptions_battle"/>
                                 </div>
                                 <div>
@@ -554,9 +554,9 @@
                                     <optgroup label="Players" class="optionContent">
 
                                     </optgroup>
-                                </select> 
+                                </select>
                             </div>
-                            <span class="font-small">vs.</span> 
+                            <span class="font-small">vs.</span>
                             <div class="nameModule">
                                 <select id="table_x_player2_name" class="playerSelect">
                                     <optgroup label="Default">
@@ -565,8 +565,8 @@
                                     <optgroup label="Players" class="optionContent">
 
                                     </optgroup>
-                                </select> 
-                            </div> → 
+                                </select>
+                            </div> →
                             <input id="table_x_pairing_obs_output" class="sourceSelect sourceSetting" placeholder="Select OBS source..." autoComplete="on" list="textSourceOptions_pairings"/>
                         </div>
                     </li>
@@ -582,7 +582,7 @@
                                 <optgroup label="Players" class="optionContent">
 
                                 </optgroup>
-                            </select> → 
+                            </select> →
                             <input id="pos_x_player_name_obs_output" class="sourceSelect sourceSetting" placeholder="Select OBS source..." autoComplete="on" list="textSourceOptions_standings"/>
                         </div>
                     </li>

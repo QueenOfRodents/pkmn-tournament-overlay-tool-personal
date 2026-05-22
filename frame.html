@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
         <style>
@@ -6,30 +6,22 @@
                 margin: 0;
             }
             .outline {
-                filter: drop-shadow(1px 1px black) 
-                    drop-shadow(-1px -1px black)
-                    drop-shadow(1px -1px black)
-                    drop-shadow(-1px 1px black) 
-                    !important;
+                filter: drop-shadow(1px 1px black) drop-shadow(-1px -1px black)
+                    drop-shadow(1px -1px black) drop-shadow(-1px 1px black) !important;
             }
             .shadow {
                 filter: drop-shadow(
-                    max(2px, 0.1em)
-                    max(2px, 0.1em)
-                    max(2px, 0.1em)
-                    rgba(0, 0, 0, 0.5)) !important;
+                    max(2px, 0.1em) max(2px, 0.1em) max(2px, 0.1em)
+                        rgba(0, 0, 0, 0.5)
+                ) !important;
             }
             .shadow_outline {
-                filter: drop-shadow(1px 1px black) 
-                    drop-shadow(-1px -1px black)
-                    drop-shadow(1px -1px black)
-                    drop-shadow(-1px 1px black) 
+                filter: drop-shadow(1px 1px black) drop-shadow(-1px -1px black)
+                    drop-shadow(1px -1px black) drop-shadow(-1px 1px black)
                     drop-shadow(
-                    max(2px, 0.1em)
-                    max(2px, 0.1em)
-                    max(2px, 0.1em)
-                    rgba(0, 0, 0, 0.5)) 
-                    !important;
+                        max(2px, 0.1em) max(2px, 0.1em) max(2px, 0.1em)
+                            rgba(0, 0, 0, 0.5)
+                    ) !important;
             }
             #mon {
                 margin: auto;
@@ -67,46 +59,46 @@
     </head>
     <body>
         <div id="content">
-            <img id="mon">
-            <img id="item">
-            <img id="tera">
+            <img id="mon" />
+            <img id="item" />
+            <img id="tera" />
         </div>
     </body>
     <footer>
         <script>
             const urlParams = new URLSearchParams(window.location.search);
-            const effect = urlParams.get('effect')
-            const mon = urlParams.get('img');
-            if(mon){
+            const effect = urlParams.get("effect");
+            const mon = urlParams.get("img");
+            if (mon) {
                 const monIcon = document.getElementById("mon");
-                monIcon.src = `./img/pkmn/${mon}.png`
-                if(effect){
+                monIcon.src = `./img/pkmn/${mon}.png`;
+                if (effect) {
                     monIcon.classList.add(effect);
                 }
             }
-            const item = urlParams.get('item');
-            if(item){
+            const item = urlParams.get("item");
+            if (item) {
                 const itemIcon = document.getElementById("item");
-                itemIcon.src = `./img/items/${item}.png`
-                const used = urlParams.get('used');
-                if(used === 'true'){
-                    itemIcon.classList.add('fainted')
+                itemIcon.src = `./img/items/${item}.png`;
+                const used = urlParams.get("used");
+                if (used === "true") {
+                    itemIcon.classList.add("fainted");
                 }
-                if(effect){
+                if (effect) {
                     itemIcon.classList.add(effect);
                 }
             }
-            const tera = urlParams.get('tera');
-            if(tera){
+            const tera = urlParams.get("tera");
+            if (tera) {
                 const teraIcon = document.getElementById("tera");
-                teraIcon.src = `./img/misc/tera/${tera}.png`
-                if(effect){
+                teraIcon.src = `./img/misc/tera/${tera}.png`;
+                if (effect) {
                     teraIcon.classList.add(effect);
                 }
             }
-            const fainted = urlParams.get('fainted');
-            if(fainted === 'true'){
-                document.getElementById('content').classList.add('fainted')
+            const fainted = urlParams.get("fainted");
+            if (fainted === "true") {
+                document.getElementById("content").classList.add("fainted");
             }
         </script>
     </footer>
