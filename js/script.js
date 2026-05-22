@@ -180,11 +180,27 @@ function attachEventListeners() {
         url.searchParams.set("img", `poke_icon_${dexNumber}`);
         url.searchParams.set("fainted", faintedToggle.checked);
 
+        //This is where items are distincted. If you want to add a new category, you have to go through this gauntlet.
         if (itemOpt) {
           if (itemOpt.type === "Berry") {
             url.searchParams.set(
               "item",
               `berry_icon_${itemOpt.getAttribute("key")}`,
+            );
+          } else if (itemOpt.type === "Gems") {
+            url.searchParams.set(
+              "item",
+              `gems_icon_${itemOpt.getAttribute("key")}`,
+            );
+          } else if (itemOpt.type === "Mega Stone") {
+            url.searchParams.set(
+              "item",
+              `mega_stone_icon_${itemOpt.getAttribute("key")}`,
+            );
+          } else if (itemOpt.type === "Z-Crystal") {
+            url.searchParams.set(
+              "item",
+              `z_crystal_icon_${itemOpt.getAttribute("key")}`,
             );
           } else {
             url.searchParams.set(
