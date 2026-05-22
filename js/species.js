@@ -4331,6 +4331,9 @@ const ITEMS = [
         name: 'Hearthflame Mask'
     },
     {
+        name: 'Heat Rock'
+    },
+    {
         name: 'Heavy Duty Boots'
     },
     {
