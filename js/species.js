@@ -2136,7 +2136,7 @@ const SPECIES = [
         name: 'Dusknoir'
     },
     {
-        name: 'Frosslass'
+        name: 'Froslass'
     },
     {
         name: 'Rotom',
@@ -4774,6 +4774,7 @@ const ITEMS = [
         name: 'Yache Berry',
         type: 'Berry'
     },
+    // Gems
 ]
 
 /**
