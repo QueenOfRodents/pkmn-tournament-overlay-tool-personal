@@ -69,7 +69,13 @@
             const urlParams = new URLSearchParams(window.location.search);
             const effect = urlParams.get("effect");
             const mon = urlParams.get("img");
-            if (mon) {
+            if (mon && spriteToggle.checked) {
+                const monIcon = document.getElementById("mon");
+                monIcon.src = `./img/pkmnsprite/${mon}.png`;
+                if (effect) {
+                    monIcon.classList.add(effect);
+                }
+            else if (mon) {
                 const monIcon = document.getElementById("mon");
                 monIcon.src = `./img/pkmn/${mon}.png`;
                 if (effect) {
