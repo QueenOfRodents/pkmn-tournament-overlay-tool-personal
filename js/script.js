@@ -179,7 +179,7 @@ function attachEventListeners() {
             otherToggle.locked || (anyTeraToggled && !otherToggle.checked);
         }
         //TODO: ADD FOR MEGAS
-        //TODO: ADD FOR DYNAMAX 
+        //TODO: ADD FOR DYNAMAX
 
         const url = new URL(relativeToAbsolutePath("./frame.html"));
         url.searchParams.set("img", `poke_icon_${dexNumber}`);
@@ -306,6 +306,8 @@ function attachEventListeners() {
             `${applyOrdinalSuffix(playerSelector.getAttribute("standing"))}` ??
             "";
         }
+        // If there's an associated Sprite Toggle, check it
+        const spriteToggle = playerSelector.getAttribute("spriteToggle");
         // If there's an associated Score Module, check it
         const recordToggle = playerSelector.getAttribute("recordToggle");
         if (recordToggle && document.getElementById(recordToggle).checked) {
