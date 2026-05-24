@@ -79,7 +79,7 @@ As of version 1.3.0, this tool also supports the ability to import teams via a P
 
 Simply click the "Import Team" button beneath the player's name on their table row and paste in the text to populate their team records.
 
-For example, try using the following Paste (my beloved Regulation E Little Cup team):
+For example, try using the following Paste (my (Farro) beloved Regulation E Little Cup team):
 ```
 Dirty Work (Glimmet) @ Eviolite  
 Ability: Toxic Debris  
@@ -134,6 +134,75 @@ Tera Type: Fairy
 - Rock Slide  
 - Brick Break  
 - Protect  
+```
+
+Or my (in this case, Queen of Rodents') 2018 Lopunny/Pheromosa team I made while I was high as balls:
+```
+Enkidu (Lopunny) (F) @ Lopunnite  
+Ability: Limber  
+Level: 50  
+Shiny: Yes  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- High Jump Kick  
+- Fake Out  
+- Low Kick  
+- Ice Punch  
+
+Merkava (Pheromosa) @ Fightinium Z  
+Ability: Beast Boost  
+Level: 50  
+Shiny: Yes  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Hasty Nature  
+- High Jump Kick  
+- Ice Beam  
+- Bug Buzz  
+- Protect  
+
+Uzuki (Tapu Lele) @ Choice Scarf  
+Ability: Psychic Surge  
+Level: 50  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Psychic  
+- Moonblast  
+- Dazzling Gleam  
+- Shadow Ball  
+
+Mika (Zapdos) @ Sitrus Berry  
+Ability: Pressure  
+Level: 50  
+EVs: 244 HP / 60 Def / 12 SpA / 124 SpD / 68 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Tailwind  
+- Hidden Power [Ice]  
+- Protect  
+
+Gordeau (Incineroar) (F) @ Figy Berry  
+Ability: Intimidate  
+Level: 50  
+Shiny: Yes  
+EVs: 236 HP / 12 Atk / 4 Def / 148 SpD / 108 Spe  
+Adamant Nature  
+- Fake Out  
+- Flare Blitz  
+- Knock Off  
+- U-turn  
+
+Seth (Accelgor) @ Psychic Seed  
+Ability: Unburden  
+Level: 50  
+EVs: 252 HP / 4 Def / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Final Gambit  
+- Protect  
+- Encore  
+- Struggle Bug
 ```
 
 
