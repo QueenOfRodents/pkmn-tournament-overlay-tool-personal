@@ -150,6 +150,9 @@ function attachEventListeners() {
         const source = monModule.querySelector(".sourceSelect").value;
         // TODO: we can probably just slap the number on the option elements
         // and not need to do this lookup-by-name
+        // QueenTODO: Convert this later to use pokeAPI so we do not need to fumble with species.js,
+        // find where images are pulled
+        // OPTIONAL: Make a toggle that pulls sprites from pokeapi gen5
         const opt = document.getElementById(monSelector.value);
         const itemOpt = document.getElementById(itemSelector.value);
         const teraType =
@@ -175,6 +178,8 @@ function attachEventListeners() {
           otherToggle.disabled =
             otherToggle.locked || (anyTeraToggled && !otherToggle.checked);
         }
+        //TODO: ADD FOR MEGAS
+        //TODO: ADD FOR DYNAMAX 
 
         const url = new URL(relativeToAbsolutePath("./frame.html"));
         url.searchParams.set("img", `poke_icon_${dexNumber}`);
@@ -1015,6 +1020,8 @@ function loadGeneralSettings() {
   document.getElementById("monCountSlider").dispatchEvent(event);
 
   document.getElementById("monIconEffect").value = settings.monIconEffect;
+  document.getElementById("spriteDisplayToggle").checked =
+    settings.useSpriteDisplay;
 }
 
 function saveGeneralSettings() {
@@ -1035,6 +1042,7 @@ function saveGeneralSettings() {
       .checked,
     standingsIncludeRecord: document.getElementById("standingsRecordToggle")
       .checked,
+    useSpriteDisplay: document.getElementById("spriteDisplayToggle").checked,
     standingsSingleIncludeOrdinal: document.getElementById(
       "standingsSingleOrdinalToggle",
     ).checked,
