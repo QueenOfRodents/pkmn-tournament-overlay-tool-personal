@@ -1,4 +1,4 @@
-# Pachirisu pun (Information )
+# PACHI (Pokémon Aid for Competitive Host Information)
 [Unofficial v1.3.3 - Check it out!](https://queenofrodents.github.io/pkmn-tournament-overlay-tool-personal/)
 
 ![TouKOAL Icon illustrated by bonbombs](./img/site/logo_notext1x.png)
