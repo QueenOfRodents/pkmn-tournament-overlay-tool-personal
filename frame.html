@@ -70,7 +70,7 @@
             const spriteCheck = document.getElementById('spriteDisplayToggle').checked
             const effect = urlParams.get("effect");
             const mon = urlParams.get("img");
-            if (mon && spriteCheck === "true") {
+            if (mon && spriteCheck === true) {
                 const monIcon = document.getElementById("mon");
                 monIcon.src = `./img/pkmnsprite/${mon}.png`;
                 if (effect) {
