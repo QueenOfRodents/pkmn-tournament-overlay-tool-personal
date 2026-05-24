@@ -392,7 +392,7 @@ function attachEventListeners() {
       .join("\n");
     if (
       window.confirm(
-        `Do you really want to reset the game?\nThis action will do the following:\n${description}`,
+        `Do you really want to reset the match?\nThis action will do the following:\n${description}`,
       )
     ) {
       // Effectively 'click' both reset buttons
