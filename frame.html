@@ -67,16 +67,18 @@
     <footer>
         <script>
             const urlParams = new URLSearchParams(window.location.search);
-            const spriteCheck = document.getElementById('spriteDisplayToggle').checked
+            const spriteVal = localStorage.getItem("spriteCheck");
+            const spriteBox = JSON.parse(spriteVal);
             const effect = urlParams.get("effect");
             const mon = urlParams.get("img");
-            if (mon && spriteCheck === true) {
+            // rest of the functionality
+            if (spriteBox == true) {
                 const monIcon = document.getElementById("mon");
                 monIcon.src = `./img/pkmnsprite/${mon}.png`;
                 if (effect) {
                     monIcon.classList.add(effect);
                 }
-            else if (mon) {
+            } else if (mon) {
                 const monIcon = document.getElementById("mon");
                 monIcon.src = `./img/pkmn/${mon}.png`;
                 if (effect) {

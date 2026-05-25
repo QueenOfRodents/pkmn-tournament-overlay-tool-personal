@@ -257,6 +257,17 @@ function attachEventListeners() {
         }
       }
     });
+    //bootlegged event listener
+    spriteDisplayToggle.addEventListener("change", (updateIcon) => {
+      const queersOnWheelies = document.getElementById(
+        "spriteDisplayToggle",
+      ).checked;
+      const vroomVroom = JSON.stringify(queersOnWheelies);
+      localStorage.setItem("spriteCheck", vroomVroom);
+      for (let i = 0; i < monModules.length; i++) {
+        console.log("Kill everyone");
+      }
+    });
   }
 
   // Hook up scores
@@ -976,6 +987,7 @@ function loadGeneralSettings() {
     pairingsIncludeRecord: false,
     pairingsSingleSplitter: "/",
     pairingsCount: 8,
+    useSpriteDisplay: false,
     standingsIncludeOrdinal: true,
     standingsIncludeRecord: false,
     standingsSingleIncludeOrdinal: true,
